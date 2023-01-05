@@ -8,12 +8,13 @@ import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 public class HelloWorld extends OpMode {
     @Override
     public void init() {
-        String myName = "Justin Davis";
-        telemetry.addData("Hello", "myName");// this string will display on the driver station as "caption: value"
+        telemetry.addData("Hello", "Justin");// this string will display on the driver station as "caption: value"
+        telemetry.addData("Grade", "9");
     }
 
     @Override
     public void loop() {
+
 
     }
 }
